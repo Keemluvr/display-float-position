@@ -1,4 +1,4 @@
-# Display e Position
+# Display, Float e Position
 
 ## Youtube
 >[Collab Code](https://www.youtube.com/channel/UCVheRLgrk7bOAByaQ0IVolg)  
