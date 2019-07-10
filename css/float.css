@@ -1,0 +1,31 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.elementExample_first {
+    background-color: rgb(50, 180, 93);
+    float: right;
+}
+
+.elementExample_last {
+    background-color: #C0392b;
+    float: left;
+}
+
+article {
+    background-color: violet;
+    overflow: hidden;
+}
+
+.elementParagraph {
+    /*
+        both - limpa o contexto e fica abaixo dos elementos que estão fulutando (em qualquer lado)
+        left - limpa o contexto e fica abaixo dos elementos que estão fulutando a esquerda
+        right - limpa o contexto e fica abaixo dos elementos que estão fulutando a direita
+    */
+    clear: both;
+}

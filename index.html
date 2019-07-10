@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="css/inline.css">
     <link rel="stylesheet" href="css/block.css">
     <link rel="stylesheet" href="css/inline-block.css">
+    <link rel="stylesheet" href="css/float.css">
 </head>
 
 <body>
+
+    <!-- ####################  Display  ####################-->
     <h2>Display: inline</h2>
     <p>Comportamento de uma palavra</p>
     <p>Ignora Width e Height</p>
@@ -46,6 +49,43 @@
         <li class="example-item-inline-block example-item-inline-block_second">Segundo</li>
         <li class="example-item-inline-block example-item-inline-block_third">Terceiro</li>
     </ul>
+
+    <!-- ####################  Float  ####################-->
+    <h2>Float</h2>
+    <p>Sempre cria um novo contexto</p>
+    <p>Fica sobre um elemento mas não fica sobre um conteúdo</p>
+    <p>Pai que ta guardando o elemento que ta flutuando perde a Height e a Width</p>
+    <p>É possível recuperar a Height e a Width do elemento pai com overflow:hidden</p>
+    <p>Diminuir o tamanho do browser fazendo com que o elemento com o float não caíba na mesma linha, faz ele cair
+        automaticamente para o sentido que ele foi mandado</p>
+    <p>clear limpa o contexto de um elemnto que vem após o elemento que ta flutuando, caso não queira que ele se encaixe
+        ao lado do elemento que ta flutuando, ou não fique atrás</p>
+    </br>
+    <article>
+        <div class="elementExample elementExample_first">
+            Apenas uma div
+        </div>
+        <div class="elementExample elementExample_last">
+            Apenas uma div
+        </div>
+        <p class="elementParagraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum id veritatis, tempora quod in harum et.
+            Reiciendis
+            nostrum expedita dolores quidem voluptatibus ut distinctio inventore magni. Autem architecto atque maxime?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum libero, ex beatae neque adipisci aut quia
+            sit
+            fugit rerum eveniet odio voluptates, laborum laboriosam. Recusandae provident quidem explicabo et. Lorem
+            ipsum
+            dolor sit amet consectetur, adipisicing elit. Consectetur laudantium sit blanditiis rem ut veniam excepturi
+            nesciunt explicabo exercitationem. Voluptatum nam, aliquam ad quidem soluta earum aut esse quisquam eius!
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloribus, dignissimos exercitationem velit
+            nulla
+            rem. Amet dolore veritatis ipsa laborum beatae, labore non incidunt magnam? Odio, id iste. Autem,
+            perspiciatis!
+        </p>
+    </article>
+
 </body>
 
 </html>
