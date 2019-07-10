@@ -1,0 +1,23 @@
+.example-inline {
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.example-item-inline {
+    display: inline;
+    /*width e height não funcionam em display inline*/
+    width: 33.333%; 
+    height: 150px;
+}
+
+.example-item-inline_first {
+    background: #FAA116;
+}
+
+.example-item-inline_second {
+    background: #57C7C3;
+}
+
+.example-item-inline_third {
+    background: #3B97D3;
+}

@@ -1,0 +1,25 @@
+.example-block {
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.example-item-block {
+    display: block;
+    width: 33.333%; 
+    height: 150px;
+}
+
+.example-item-block_first {
+    background: #FAA116;
+}
+
+.example-item-block_second {
+    background: #57C7C3;
+    /* coloca todo para a direita */
+    margin-left: auto;
+}
+
+.example-item-block_third {
+    background: #3B97D3;
+    margin: auto;
+}
