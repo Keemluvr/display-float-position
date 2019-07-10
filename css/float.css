@@ -19,6 +19,7 @@
 article {
     background-color: violet;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .elementParagraph {
