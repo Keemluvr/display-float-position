@@ -7,6 +7,7 @@
 ## Medium
 >[Marco Bruno](https://medium.com/@marcobrunobr)  
 > - [Pare de chutar e aprenda as propriedades CSS de posicionamento](https://medium.com/collabcode/pare-de-chutar-e-aprenda-as-propriedades-css-de-posicionamento-603154655121)
+> - [Pare de chutar e aprenda como funciona o float: left e float:right e sua trupe](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7)
 
 ## Github
 >[Marco Bruno](https://github.com/MarcoBrunoBR)  
