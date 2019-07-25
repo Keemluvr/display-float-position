@@ -1,0 +1,44 @@
+.elementExamplePositionAbsolute {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+/* direita da tela */
+.elementExamplePositionAbsolute_first {
+    background-color: #6c5ce7;
+    position: absolute;
+    right: 0px;
+}
+
+/* centralizado */
+.elementExamplePositionAbsolute_second {
+    background-color: #00b894;
+    position: absolute;
+    /* centraliza horizontalmente */
+    left: 50%; /* em relação a tela */
+    /* centraliza verticalmente */
+    bottom: -255%;
+
+    transform: translate(-50%, -50%);/* em relação ao elemento */
+}
+
+.elementExamplePositionAbsolute_last {
+    background-color: #d63031;
+    position: absolute;
+    margin-bottom: 39.6%;
+}
+
+.elementExamplePositionAbsolute-internal {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

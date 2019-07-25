@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/inline-block.css">
     <link rel="stylesheet" href="css/float.css">
     <link rel="stylesheet" href="css/position-relative.css">
+    <link rel="stylesheet" href="css/position-absolute.css">
 </head>
 
 <body>
@@ -88,6 +89,8 @@
     </article>
 
     <!-- ####################  Position  ####################-->
+
+    <!-- #  Relative  #-->
     <h2>Position: relative</h2>
     <p>Pode usar 4 propriedades com eles:</p>
     <p>top</p>
@@ -102,16 +105,19 @@
         Clique!
     </div>
 
+    <!-- #  Absolute  #-->
     <h2>Position: absolute</h2>
-    <p></p>
-    <div class="elementExamplePositionAbsolute elementExamplePositionRelative_first">
+    <p>Cria um novo contexto</p>
+    <p>Posiciona em relação a tela, exceto quando o elemento pai é static</p>
+    <p>Para um elemento absolute respeitar o elemento pai, o elemento pai precisa ter o position diferente de static</p>
+    <div class="elementExamplePositionAbsolute elementExamplePositionAbsolute_first">
         Apenas uma div
     </div>
-    <div class="elementExamplePositionAbsolute elementExamplePositionRelative_second">
+    <div class="elementExamplePositionAbsolute elementExamplePositionAbsolute_second">
         Apenas uma div
     </div>
-    <div class="elementExamplePositionAbsolute elementExamplePositionRelative_first">
-        <div class="elementExample-internal">Interna</div>
+    <div class="elementExamplePositionAbsolute elementExamplePositionAbsolute_last">
+        <div class="elementExamplePositionAbsolute-internal">Interna</div>
     </div>
 
 
